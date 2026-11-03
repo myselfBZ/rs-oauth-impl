@@ -1,0 +1,11 @@
+[package]
+name = "u-oauth"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json"] }
+thiserror = "2.0.21"
+oauth2 = "5"
+serde = { version = "1.0", features = ["derive", "rc"] }
+schemars = { version = "=1.0.4", features = ["indexmap2", "uuid1", "chrono04"] }
