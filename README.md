@@ -1,3 +1,2 @@
-# Simple OAuth abstraction 
+# Simple OAuth  implementation for Juniors
 
-### it needs an `examples/` directory with axum
